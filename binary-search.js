@@ -1,4 +1,3 @@
-// Binary search implement
 function binarySearch(array, value) {
 
     let left = 0, right = array.length - 1, mid;
