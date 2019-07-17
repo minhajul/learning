@@ -1,2 +1,2 @@
-# JS-data-structure-and-algorithm
-Practice data structure and algorithm using Javascript.
+# Data Structure & Algorithm
+Practice data structure and algorithm using Javascript/Python/Golang.
