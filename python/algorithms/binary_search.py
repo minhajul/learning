@@ -1,9 +1,9 @@
 def binary_search(list_items, x):
-    left = 0
+    left = list_items[0]
     right = len(list_items) - 1
 
     while left <= right:
-        mid = (left + right) // 2
+        mid = round((left + right) / 2)
         if x == list_items[mid]:
             return mid
 
@@ -16,5 +16,5 @@ def binary_search(list_items, x):
     return -1
 
 
-lists = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(binary_search(lists, 11))
+result = binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3)
+print(result)
