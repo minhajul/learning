@@ -1,2 +1,2 @@
 # Data Structure & Algorithm
-Practice data structure and algorithm using Javascript/Python/Golang.
+Practice data structure and algorithm using Python/Javascript/Golang.
