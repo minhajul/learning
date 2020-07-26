@@ -15,16 +15,16 @@ func main() {
 	makePublish(post)
 	fmt.Println(post)
 
-	posts_array := make([]Post, 2)
-	posts_array = append(posts_array, Post{
+	postsArray := make([]Post, 2)
+	postsArray = append(postsArray, Post{
 		title: "This is dummy post", author: "Minhajul", isPublished: true,
 	})
 
-	posts_array = append(posts_array, Post{
+	postsArray = append(postsArray, Post{
 		title: "This is dummy post", author: "Minhajul", isPublished: false,
 	})
 
-	fmt.Println(getPublishedPost(posts_array))
+	fmt.Println(getPublishedPost(postsArray))
 }
 
 func makePublish(p *Post) {
