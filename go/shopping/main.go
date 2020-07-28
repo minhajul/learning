@@ -1,9 +1,8 @@
-package shopping
+package main
 
 import (
 	"log"
 	"net/http"
-	"shopping/config"
 )
 
 func getResponse(w http.ResponseWriter, r *http.Request) {
@@ -11,9 +10,9 @@ func getResponse(w http.ResponseWriter, r *http.Request) {
 
 	log.Println("Hello World")
 
-	db := databaseConnection()
-
-	defer db.Close()
+	//db := databaseConnection()
+	//
+	//defer db.Close()
 }
 
 func handleRequests() {
