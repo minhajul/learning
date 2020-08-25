@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func anonymous() func() int  {
+func anonymous() func() int {
 	i := 0
 	return func() int {
 		i++
@@ -10,7 +10,7 @@ func anonymous() func() int  {
 	}
 }
 
-func main(){
+func main() {
 
 	nextInt := anonymous()
 

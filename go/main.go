@@ -2,17 +2,8 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"runtime"
 )
 
-func main()  {
-	if len(os.Args) > 1 {
-		fmt.Println(os.Args[1])
-		fmt.Println(os.Hostname())
-		fmt.Println(os.Geteuid())
-		fmt.Println(runtime.GOOS)
-	}else {
-		fmt.Println("Hello, I am gopher!")
-	}
+func main() {
+	fmt.Println("Hello, world!")
 }

@@ -42,4 +42,3 @@ func MakeRequest() {
 
 	log.Println(result["form"])
 }
-

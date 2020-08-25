@@ -17,7 +17,7 @@ func main() {
 	}
 
 	for {
-		c <- rand.Int()
+		//c <- rand.Int()
 		time.Sleep(time.Millisecond * 10)
 	}
 }
